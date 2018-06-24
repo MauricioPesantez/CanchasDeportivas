@@ -171,6 +171,7 @@ class VentanaIngresarReserva(QtWidgets.QMainWindow, Ui_agregarReserva):
         
     def guardar(self):
         #fecha, horaInicio, horaFin, clienteReserva, canchaDeportiva
+        
         horaFecha = self.fechaHoraTXT.text()
         horaFin = self.horaFInTXT.text()
         #print(horaFecha[:horaFecha.find(" ")])  #fecha
@@ -312,4 +313,5 @@ class VentanaPrincipal(QtWidgets.QMainWindow, Ui_MainWindow):
         
     def salir(self):
         sys.exit(0)
+        
     
