@@ -98,8 +98,8 @@ class VentanaIngresarEquipo(QtWidgets.QMainWindow,Ui_ingresarEquipo):
     
     def cancelar(self):
         self.close()
-
-class VentanaIngresarCancha(QtWidgets.QMainWindow,Ui_ingresarCancha):
+        
+class VentanaIngresarCancha(QtWidgets.QMainWindow,Ui_ingresarCancha): 
     def __init__(self, parent=None):
         super(VentanaIngresarCancha, self).__init__(parent)
         self.setupUi(self)
